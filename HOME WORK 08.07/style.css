@@ -1,0 +1,116 @@
+body {
+  margin: 0 auto;
+}
+header {
+  display: block;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.menu-fixed-wrapper {
+  position: fixed;
+  background: orange;
+  width: 100%;
+  height: 40px;
+  z-index: 15;
+}
+.menu-fixed {
+  display: flex;
+  justify-content: flex-start;
+}
+.menu-fixed li {
+  display: inline-block;
+  padding: 5px;
+}
+.menu-fixed-wrapper li:hover {
+  background: rgb(238, 215, 111);
+}
+.header-style {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 5px;
+  background: url("./image/loft10.webp") no-repeat;
+  height: 500px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+.main-menu {
+  background: lightcoral;
+  position: relative;
+  margin: 0 auto;
+  padding: 5px;
+}
+main {
+  display: flex;
+  justify-content: stretch;
+
+  height: 800px;
+}
+.left-side {
+  background: greenyellow;
+  width: 20%;
+}
+.card-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.menu-fixed {
+  background: orange;
+  width: 100%;
+  height: 40px;
+  list-style: none;
+}
+.menu-fixed li:hover {
+  background: rgb(233, 196, 129);
+}
+.main-section,
+.section-group {
+  background: rgb(205, 165, 231);
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.section-item {
+  width: 33.3%;
+  display: block;
+  max-height: 400px;
+  overflow: hidden;
+  display: block;
+  border: 1px solid yellow;
+}
+.main-section img {
+  width: 95%;
+  border-radius: 10%;
+  margin: 5px;
+}
+
+h4 {
+  text-align: center;
+  padding: 3px;
+}
+p {
+  padding: 3px;
+  font-size: small;
+}
+.for-button {
+  display: flex;
+  justify-content: center;
+}
+.right-side {
+  background: greenyellow;
+  width: 20%;
+}
+.conteiner-form {
+  width: 100%;
+  padding: 5px;
+}
+footer {
+  height: 100px;
+  background: orange;
+}
